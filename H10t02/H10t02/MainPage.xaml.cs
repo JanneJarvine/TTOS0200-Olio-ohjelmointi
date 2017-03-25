@@ -25,7 +25,7 @@ namespace H10t02
         private DispatcherTimer dispatcherTimer;
         private int timesTicked = 1;
         private int timesToTick = 10;
-        int i = 1;
+        int i = 1;  //Tick-lkm
 
         public MainPage()
         {
@@ -42,7 +42,7 @@ namespace H10t02
             if (timesTicked <= timesToTick)
             {
                 TimerLog.Text += "dispatcherTimer_Tick called!" + Environment.NewLine;
-
+                //Tick-laskuri
                 Counter.Text += i + Environment.NewLine;
                 i++;
             }
